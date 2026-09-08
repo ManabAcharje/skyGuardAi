@@ -1,0 +1,29 @@
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_DB: skyguard
+      POSTGRES_USER: skyguard
+      POSTGRES_PASSWORD: change-me
+    ports:
+      - "5432:5432"
+
+  ml-service:
+    build: ./infra/docker/ml
+    ports:
+      - "8000:8000"
+
+  backend:
+    build: ./infra/docker/backend
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+      - ml-service
+
+  frontend:
+    build: ./infra/docker/frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
