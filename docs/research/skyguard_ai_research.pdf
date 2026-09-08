@@ -1,49 +1,123 @@
-%PDF-1.3
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%PDF-1.4
 1 0 obj
 <<
-/F1 2 0 R
+/Type /Catalog
+/Pages 2 0 R
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
 >>
 endobj
 3 0 obj
 <<
-/PageMode /UseNone /Pages 5 0 R /Type /Catalog
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+>>
+>>
 >>
 endobj
 4 0 obj
 <<
-/Author (\(anonymous\)) /CreationDate (D:20260907192812+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260907192812+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
+/Length 8500
 >>
+stream
+BT
+/F2 24 Tf
+50 750 Td
+(August-Roche-Magnus Formula for Dew Point and) Tj
+0 -30 Td
+(Saturation Vapor Pressure Estimation) Tj
+ET
+BT
+/F1 12 Tf
+50 700 Td
+(Abstract & Introduction) Tj
+ET
+BT
+/F1 11 Tf
+50 680 Td
+(The August-Roche-Magnus \(ARM\) formula is an empirical equation widely used in meteorology,) Tj
+0 -15 Td
+(environmental monitoring, and Internet of Things \(IoT\) applications to estimate the saturation vapor) Tj
+0 -15 Td
+(pressure and dew point temperature of air. It provides a computationally efficient and accurate) Tj
+0 -15 Td
+(approximation over the temperature range commonly encountered in atmospheric conditions. Due to its) Tj
+0 -15 Td
+(simplicity and reliability, the formula is extensively implemented in embedded systems such as ESP32,) Tj
+0 -15 Td
+(Arduino, Raspberry Pi, and commercial weather stations. In the proposed SIH project, the ARM formula) Tj
+0 -15 Td
+(is employed to calculate dew point and moisture-related atmospheric parameters from real-time) Tj
+0 -15 Td
+(temperature and relative humidity measurements, enabling intelligent environmental monitoring and) Tj
+0 -15 Td
+(early warning capabilities.) Tj
+ET
+BT
+/F1 11 Tf
+50 400 Td
+(Humidity plays a significant role in determining environmental comfort, weather conditions, and the) Tj
+0 -15 Td
+(risk of condensation. The dew point temperature represents the temperature at which air becomes) Tj
+0 -15 Td
+(saturated with water vapor, causing condensation to occur. Accurate estimation of dew point is essential) Tj
+0 -15 Td
+(in applications such as smart agriculture, cold storage management, industrial monitoring, HVAC) Tj
+0 -15 Td
+(systems, and weather forecasting.) Tj
+ET
+BT
+/F1 11 Tf
+50 320 Td
+(The August-Roche-Magnus formula is one of the most widely accepted empirical approximations for) Tj
+0 -15 Td
+(calculating saturation vapor pressure. Compared with more complex thermodynamic equations, it) Tj
+0 -15 Td
+(requires minimal computational resources while maintaining excellent accuracy for typical atmospheric) Tj
+0 -15 Td
+(temperatures, making it ideal for IoT-based monitoring systems.) Tj
+ET
+endstream
 endobj
 5 0 obj
 <<
-/Count 0 /Kids [  ] /Type /Pages
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
 >>
 endobj
 xref
-0 6
+0 7
 0000000000 65535 f 
-0000000061 00000 n 
-0000000092 00000 n 
-0000000199 00000 n 
-0000000267 00000 n 
-0000000547 00000 n 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000262 00000 n 
+0000008813 00000 n 
+0000008890 00000 n 
 trailer
 <<
-/ID 
-[<432781fa39868e8cc30df1189a553a85><432781fa39868e8cc30df1189a553a85>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 4 0 R
-/Root 3 0 R
-/Size 6
+/Size 7
+/Root 1 0 R
 >>
 startxref
-601
+8967
 %%EOF
